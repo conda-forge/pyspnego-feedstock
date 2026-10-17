@@ -1,5 +1,5 @@
 {% set name = "pyspnego" %}
-{% set version = "0.12.2" %}
+{% set version = "0.12.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyspnego-{{ version }}.tar.gz
-  sha256: 448a491a9bf0e5fb957567fe46e6809fa836aa40dfcccebcc740bb64acb1be1c
+  sha256: acb314d6ca5c9ce87994b1eebbe2d8b687e0d564f9d650b306afb4c8f9c2ffd5
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
   host:
     - python
     - pip
-    - setuptools >=61
+    - setuptools >=77.0.3
   run:
     - python
     - cryptography
